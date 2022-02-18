@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+{% block content %}
+<div class="container">
+    <a href="{% url 'createpost' %}"> <button>New Post</button></a>
+    <a href="{% url 'posts' %}"><button>View All Post</button></a>
+
+</div>
+
+{% endblock content %}
